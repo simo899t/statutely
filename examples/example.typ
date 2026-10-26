@@ -1,25 +1,41 @@
 #import "@local/statutely:0.1.0": *
-#show: statutes.with(organisation: "IMADA Fagråd", updated: "april 2026", lang: "da")
+#show: statutes.with(organisation: "Example Student Association", updated: "April 2026", lang: "en")
 
-= Navn og hjemsted
-Foreningens navn er IMADA Fagråd. Foreningen har hjemme på Institut for Matematik og Datalogi (IMADA), Syddansk Universitet, Odense.
+= Name and Domicile
+The name of the association is Example Student Association. The association is domiciled at the Department of Example Studies, Example University.
 
-= Formål
-Foreningen afholder arrangementer og repræsenterer de studerende på IMADA i politiske anliggender med følgende formål:
-- Løbende forbedre studiemiljøet og faciliteterne på IMADA.
-- Styrke sammenholdet blandt de studerende på IMADA på tværs af studier og årgange.
+= Purpose
+The association organises events and represents the students of the department in political matters, with the following purposes:
+- To continuously improve the study environment and facilities at the department.
+- To strengthen the sense of community among students across programmes and years.
 
-= Bestyrelsen
+= The Board
 ==
-Bestyrelsen skal bestå af: 1 Fagrådsleder, 1 Kasserer og 6-8 øvrige medlemmer.
+The board shall consist of: 1 Chair, 1 Treasurer and 6-8 other members.
 
-#stk[Bestyrelsen er valgt for et år ad gangen.]
-#stk[Medlemmer af IMADA kan opstille in absentia ved at rette skriftlig henvendelse til bestyrelsen senest 8 dage inden generalforsamling.]
+#stk[The board is elected for one year at a time.]
+#stk[Members may stand for election in absentia by notifying the board in writing no later than 8 days before the general assembly.]
 
 ==
-Dagsorden skal som minimum indeholde:
-+ Valg af dirigent.
-+ Valg af referent.
-+ Valg af bestyrelsen.
-  + Valg af fagrådsleder.
-  + Valg af kasserer.
+The agenda shall at minimum include:
++ Election of chairperson of the meeting.
++ Election of minute-taker.
++ Election of the board.
+  + Election of the Chair.
+  + Election of the Treasurer.
+
+
+
+#pagebreak()
+
+#import "@local/statutely:0.1.0": *
+#show: statutes.with(organisation: "The Empire", updated: "April 2026", lang: "en")
+
+= Name                        // §1 Name
+The association is called The Empire.
+
+= Board                       // §2 Board
+==                            // 2.1
+The board consists of 5 members.
+#stk[The board is elected for one year.]   // para. 2
+#stk[Members may run in absentia.]         // para. 3

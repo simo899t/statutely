@@ -5,11 +5,11 @@ Typst template for statutes / bylaws (vedtægter), Danish/English.
 ## Example
 
 ```typ
-#import "@local/statutely:0.1.0": *
-#show: statutes.with(organisation: "Foreningen", updated: "April 2026", lang: "en")
+#import "@preview/statutely:0.1.0": *
+#show: statutes.with(organisation: "The Empire", updated: "April 2026", lang: "en")
 
 = Name                        // §1 Name
-The association is called Foreningen.
+The association is called The Empire.
 
 = Board                       // §2 Board
 ==                            // 2.1
