@@ -1,5 +1,5 @@
 #import "@local/statutely:0.1.0": *
-#show: statutes.with(updated: "april 2026", lang: "da")
+#show: statutes.with(organisation: "IMADA Fagråd", updated: "april 2026", lang: "da")
 
 = Navn og hjemsted
 Foreningens navn er IMADA Fagråd. Foreningen har hjemme på Institut for Matematik og Datalogi (IMADA), Syddansk Universitet, Odense.

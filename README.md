@@ -2,12 +2,38 @@
 
 Typst template for statutes / bylaws (vedtægter), Danish/English.
 
+## Example
+
 ```typ
 #import "@local/statutely:0.1.0": *
-#show: statutes.with(organisation: "Foreningen", updated: "April 2026", lang: "en")  // or vedtaegter (lang: "da")
-= Name             // §1 Name
-==                 // 1.1
-#stk[...]          // para. 2 … / stk. 2 …
+#show: statutes.with(organisation: "Foreningen", updated: "April 2026", lang: "en")
+
+= Name                        // §1 Name
+The association is called Foreningen.
+
+= Board                       // §2 Board
+==                            // 2.1
+The board consists of 5 members.
+#stk[The board is elected for one year.]   // para. 2
+#stk[Members may run in absentia.]         // para. 3
 ```
 
-Pass `logo: image("logo.png", width: 2.3cm)` from your own document for a logo. See `examples/`.
+`vedtaegter` is an alias for `statutes`. See `examples/`.
+
+## `statutes` parameters
+
+| Parameter | Default | Description |
+|---|---|---|
+| `organisation` | `none` | Organisation name, used in the generated title ("Statutes of …"). |
+| `title` | `none` | Override the generated title. |
+| `updated` | `none` | Shown as "Last updated …" under the title. |
+| `logo` | `none` | Content, e.g. `image("logo.png", width: 2.3cm)`. Must be passed from your own document, not a path string. |
+| `lang` | `"en"` | `"da"` or `"en"`. |
+
+## Markup
+
+| Syntax | Renders as | Description |
+|---|---|---|
+| `= Title` | §N Title | Section. |
+| `==` | N.M | Numbered sub-clause (heading text optional). |
+| `#stk[…]` | para. 2 … / stk. 2 … | Auto-numbered paragraph within a sub-clause. |
