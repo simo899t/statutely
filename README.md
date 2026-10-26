@@ -17,8 +17,9 @@ The board consists of 5 members.
 #stk[The board is elected for one year.]   // para. 2
 #stk[Members may run in absentia.]         // para. 3
 ```
+<img width="564" height="354" alt="image" src="https://github.com/user-attachments/assets/41c7e7f4-bc12-42c5-9150-66d7ad93d890" />
 
-`vedtaegter` is an alias for `statutes`. See `examples/`.
+
 
 ## `statutes` parameters
 
