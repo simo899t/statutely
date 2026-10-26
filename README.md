@@ -33,7 +33,7 @@ The board consists of 5 members.
 | `title` | `none` | Override the generated title. |
 | `updated` | `none` | Shown as "Last updated …" under the title. |
 | `logo` | `none` | Content, e.g. `image("logo.png", width: 2.3cm)`. Must be passed from your own document, not a path string. |
-| `lang` | `"en"` | `"da"` or `"en"`. |
+| `lang` | `"en"` | `"da"` or `"en"`. Language setting |
 
 ## Markup
 
