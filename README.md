@@ -41,5 +41,5 @@ The board consists of 5 members.
 |---|---|---|
 | `= Title` | §N Title | Section. |
 | `==` | N.M | Numbered sub-clause (heading text optional). |
-| `#sub[…]` | (2) … / _Stk. 2._ … | Auto-numbered subsection paragraph within a clause. |
-| `#stk[…]` | | Danish alternative to `#sub` (stykke). |
+| `#sub[…]` | (2) … | Auto-numbered subsection paragraph within a clause. |
+| `#stk[…]` | _Stk. 2._ …| Danish alternative to `#sub` (stykke). |
