@@ -17,7 +17,7 @@ The board consists of 5 members.
 #sub[The board is elected for one year.]   // (2)
 #sub[Members may run in absentia.]         // (3)
 ```
-<p align="left">
+<p align="center">
   <img width="564" height="354" alt="Rendered statutes page titled Statutes of The Empire, with numbered § sections, a 5.1 subsection and numbered paragraphs" src="https://github.com/user-attachments/assets/41c7e7f4-bc12-42c5-9150-66d7ad93d890" />
   <br>
   <em>Rendered output of the code above: a centred title generated from <code>organisation</code> ("Statutes of The Empire") with the <code>updated</code> date beneath it. Each <code>=</code> heading becomes a numbered § section, <code>==</code> becomes a numbered subsection (5.1), and each <code>#sub</code> starts a new numbered paragraph ("(2)", "(3)").</em>
