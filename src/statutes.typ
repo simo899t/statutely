@@ -1,13 +1,20 @@
 #import "i18n.typ": tr, lookup
 
 // Statutes/bylaws (vedtægter) layout.
-// `= Title` → "§N  Title", `== ` → "N.M", `#stk[...]` → "stk. 2 ..." (auto-numbered per subsection).
+// `= Title` → "§N  Title", `== ` → "N.M", `#sub[...]` (Danish: `#stk`) → "(2)" (en) / "Stk. 2." (da), auto-numbered per subsection.
 
 #let _stk-counter = counter("statutes-stk")
 
-#let stk(body) = {
+#let sub(body) = {
+  parbreak()
   _stk-counter.step()
-  context [#lookup("stk") #_stk-counter.get().first() #body]
+  context {
+    let n = str(_stk-counter.get().first())
+    let marker = lookup("stk").replace("{n}", n)
+    if text.lang == "da" { emph(marker) } else { marker }
+    h(0.6em)
+    body
+  }
   parbreak()
 }
 
@@ -59,3 +66,4 @@
 }
 
 #let vedtaegter = statutes.with(lang: "da")
+#let stk = sub  // Danish alternative (stykke)

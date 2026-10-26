@@ -14,13 +14,13 @@ The association is called The Empire.
 = Board                       // §2 Board
 ==                            // 2.1
 The board consists of 5 members.
-#stk[The board is elected for one year.]   // para. 2
-#stk[Members may run in absentia.]         // para. 3
+#sub[The board is elected for one year.]   // (2)
+#sub[Members may run in absentia.]         // (3)
 ```
 <p align="center">
   <img width="564" height="354" alt="Rendered statutes page titled Statutes of The Empire, with numbered § sections, a 5.1 subsection and numbered paragraphs" src="https://github.com/user-attachments/assets/41c7e7f4-bc12-42c5-9150-66d7ad93d890" />
   <br>
-  <em>Rendered output of the code above: a centred title generated from <code>organisation</code> ("Statutes of The Empire") with the <code>updated</code> date beneath it. Each <code>=</code> heading becomes a numbered § section, <code>==</code> becomes a numbered subsection (5.1), and each <code>#stk</code> starts a new numbered paragraph ("para. 2", "para. 3").</em>
+  <em>Rendered output of the code above: a centred title generated from <code>organisation</code> ("Statutes of The Empire") with the <code>updated</code> date beneath it. Each <code>=</code> heading becomes a numbered § section, <code>==</code> becomes a numbered subsection (5.1), and each <code>#sub</code> starts a new numbered paragraph ("(2)", "(3)").</em>
 </p>
 
 
@@ -41,4 +41,5 @@ The board consists of 5 members.
 |---|---|---|
 | `= Title` | §N Title | Section. |
 | `==` | N.M | Numbered sub-clause (heading text optional). |
-| `#stk[…]` | para. 2 … / stk. 2 … | Auto-numbered paragraph within a sub-clause. |
+| `#sub[…]` | (2) … / _Stk. 2._ … | Auto-numbered subsection paragraph within a clause. |
+| `#stk[…]` | | Danish alternative to `#sub` (stykke). |

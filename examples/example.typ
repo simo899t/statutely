@@ -13,8 +13,8 @@ The association organises events and represents the students of the department i
 ==
 The board shall consist of: 1 Chair, 1 Treasurer and 6-8 other members.
 
-#stk[The board is elected for one year at a time.]
-#stk[Members may stand for election in absentia by notifying the board in writing no later than 8 days before the general assembly.]
+#sub[The board is elected for one year at a time.]
+#sub[Members may stand for election in absentia by notifying the board in writing no later than 8 days before the general assembly.]
 
 ==
 The agenda shall at minimum include:
@@ -37,5 +37,5 @@ The association is called The Empire.
 = Board                       // §2 Board
 ==                            // 2.1
 The board consists of 5 members.
-#stk[The board is elected for one year.]   // para. 2
-#stk[Members may run in absentia.]         // para. 3
+#sub[The board is elected for one year.]   // (2)
+#sub[Members may run in absentia.]         // (3)
